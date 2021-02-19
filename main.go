@@ -38,7 +38,6 @@ func main() {
 
 	jim.updateName("Jimmy")
 	jim.print()
-
 }
 
 func (pointertoPerson *person) updateName(newFIrstName string) {
